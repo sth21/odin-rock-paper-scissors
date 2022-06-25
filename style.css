@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Yatra One', cursive;
+    background-color: #1fab89;
+    color: #d7fbe8;
+}
+
+.clicked {
+    background-color: #1fab89;
+}
+
+.hovered {
+    transform: scale(1.2);
+}
+
+
+.iconID {
+    height: 30px;
+    width: 30px;
+    margin-left: 75px;
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid #9DF3C4;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rules {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 75px;
+}
+
+section {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #9DF3C4;
+    background-color: #62D2A2;
+}
+
+.identificator {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score {
+    margin-left: 10px;
+}
+
+.player {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.computer {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+    font-size: 30px;
+}
+
+.citation {
+    margin-right: auto;
+    margin-left: 300px;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: 300px;
+    gap: 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #d7fbe8;
+}
+
+.otherpg {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.creators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.creators a {
+    width: 200px;
+}
+
+.mainpg a:hover {
+    color: blue;
+}

@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+        <link rel="icon" href="/Users/sam/Downloads/thebear.png">
         <meta charset="UTF-8">
         <title>Rock Paper Scissors!</title>
-        <script src="javascript.js"></script>
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <p class="rules">First to Five Wins!</p>
+        </header>
+        <main>
+            <section class="player">
+                <div class="identificator">
+                    <p>Player Score:</p>
+                    <p class="score">0</p>
+                    <img src="images/user.png" class="iconID">
+                </div>
+                <div class="selection">
+                    <img src="images/landslide.png" class="choice" class="rock">
+                    <img src="images/paper.png" class="choice" class="paper">
+                    <img src="images/scissors.png" class="choice" class="scissors">
+                </div>
+            </section>
+            <section class="computer">
+                <div class="identificator">
+                    <p>Computer Score:</p>
+                    <p class="score">0</p>
+                    <img src="images/monitor.png" class="iconID">
+                </div>
+                <div class="selection">
+                    <img src="images/landslide.png" class="choice" id="rock">
+                    <img src="images/paper.png" class="choice" id="paper">
+                    <img src="images/scissors.png" class="choice" id="scissors">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="citation"><a href="pages/citations.html">Icons</a></p>
+            <div class="personal">
+                <a href="https://github.com/sth21"><img src="images/githublogo.png" alt="The GitHub logo" class="iconID"></a>
+                <p><a href="https://github.com/sth21">sth21</a></p>
+            </div>
+        </footer>
     </body>
-</html>
-        
+</html>       
