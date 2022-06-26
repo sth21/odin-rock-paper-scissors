@@ -10,10 +10,9 @@ body {
     background-color: #1fab89;
 }
 
-.hovered {
+img.choice:hover {
     transform: scale(1.2);
 }
-
 
 .iconID {
     height: 30px;
@@ -21,7 +20,7 @@ body {
     margin-left: 75px;
 }
 
-.choice {
+.selection img {
     height: 100px;
     width: 100px;
     padding: 10px;
@@ -141,8 +140,4 @@ a {
 
 .creators a {
     width: 200px;
-}
-
-.mainpg a:hover {
-    color: blue;
 }
